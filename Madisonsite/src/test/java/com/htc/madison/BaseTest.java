@@ -88,11 +88,6 @@ public class BaseTest {
 		 if (ITestResult.SUCCESS == result.getStatus()) {
 				bp.Logout();
 		 }
-				else {
-					if(ITestResult.FAILURE == result.getStatus()) {
-						
-					}
-				}
 				
 			}
 		}
