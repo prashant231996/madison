@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26730" started-at="2021-03-24T19:44:11 IST" finished-at="2021-03-24T19:44:38 IST">
+  <suite name="Suite" duration-ms="25259" started-at="2021-03-24T20:06:00 IST" finished-at="2021-03-24T20:06:25 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26730" started-at="2021-03-24T19:44:11 IST" finished-at="2021-03-24T19:44:38 IST">
+    <test name="Test" duration-ms="25259" started-at="2021-03-24T20:06:00 IST" finished-at="2021-03-24T20:06:25 IST">
       <class name="com.htc.madison.tests.LoginTest">
-        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="start" is-config="true" duration-ms="8733" started-at="2021-03-24T19:44:03 IST" finished-at="2021-03-24T19:44:11 IST">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="start" is-config="true" duration-ms="8454" started-at="2021-03-24T20:05:51 IST" finished-at="2021-03-24T20:06:00 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="browserSetup" is-config="true" duration-ms="101" started-at="2021-03-24T19:44:11 IST" finished-at="2021-03-24T19:44:12 IST">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="browserSetup" is-config="true" duration-ms="61" started-at="2021-03-24T20:06:00 IST" finished-at="2021-03-24T20:06:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="3637" started-at="2021-03-24T19:44:14 IST" data-provider="Madison" finished-at="2021-03-24T19:44:18 IST">
+        <test-method status="PASS" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="4463" started-at="2021-03-24T20:06:01 IST" data-provider="Madison" finished-at="2021-03-24T20:06:05 IST">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_And_Invalid_Login -->
-        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="1372" started-at="2021-03-24T19:44:21 IST" finished-at="2021-03-24T19:44:23 IST">
+        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="886" started-at="2021-03-24T20:06:09 IST" finished-at="2021-03-24T20:06:10 IST">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogout -->
-        <test-method status="FAIL" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="11930" started-at="2021-03-24T19:44:23 IST" data-provider="Madison" finished-at="2021-03-24T19:44:34 IST">
+        <test-method status="FAIL" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="11713" started-at="2021-03-24T20:06:10 IST" data-provider="Madison" finished-at="2021-03-24T20:06:21 IST">
           <params>
             <param index="0">
               <value>
@@ -60,8 +60,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HP', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\h\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:57807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54de6abe0e7a389cd7d7e783c9123653
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\h\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:57996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 751ec640c729d795568b9b4c938b9bbe
 *** Element info: {Using=xpath, value=//strong[contains(text(),"Hello, prashant shivaji more!")]}]]>
             </message>
             <full-stacktrace>
@@ -71,8 +71,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HP', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\h\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:57807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54de6abe0e7a389cd7d7e783c9123653
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\h\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:57996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 751ec640c729d795568b9b4c938b9bbe
 *** Element info: {Using=xpath, value=//strong[contains(text(),"Hello, prashant shivaji more!")]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -127,7 +127,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_And_Invalid_Login -->
-        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="1" started-at="2021-03-24T19:44:38 IST" finished-at="2021-03-24T19:44:38 IST">
+        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="1" started-at="2021-03-24T20:06:25 IST" finished-at="2021-03-24T20:06:25 IST">
           <params>
             <param index="0">
               <value>
