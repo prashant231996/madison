@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.htc.madison.BaseTest;
 
 public class ProductPurchaseTest extends BaseTest {
-	@Test(dataProviderClass = com.htc.madison.utilites.Data_Provider.class, dataProvider = "Madison")
+	@Test(dataProviderClass = com.htc.madison.utilites.TestDataProvider.class, dataProvider = "Madison")
 	@Parameters("SheetName")
 	public void Valid_And_Invalid_Login(Map<String, String> mapData) throws IOException, InterruptedException {
 		login.Login_To_Page(mapData.get("emailid"), mapData.get("password"));

@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
 
 
 
-public class Data_Provider {
+public class TestDataProvider {
 
 	@DataProvider(name = "Madison")
 	public Object[][] Madison_Valid_And_Invalid_RegisterData(Method m) {

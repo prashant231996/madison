@@ -13,7 +13,7 @@ import java.util.Map;
 public class RegistrationTest extends BaseTest {
 	
 
-	@Test(dataProviderClass = com.htc.madison.utilites.Data_Provider.class, dataProvider = "Madison")
+	@Test(dataProviderClass = com.htc.madison.utilites.TestDataProvider.class, dataProvider = "Madison")
 	public void Valid_And_Invalid_Registration(Map<String, String> mapData) throws IOException, InterruptedException {
 
 		RegistrationPage registration = new RegistrationPage(this.driver);
