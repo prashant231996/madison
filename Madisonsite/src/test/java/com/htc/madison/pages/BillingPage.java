@@ -55,6 +55,7 @@ public class BillingPage extends BasePage{
 			newsletterBy.sendKeys(email);
 			subscribeBy.click();
 			companyBy.sendKeys(company);
+			//comment
 			streetBy.sendKeys(street);
 			cityBy.sendKeys(city);
 			Utility.dropdown(regionBy, region);
