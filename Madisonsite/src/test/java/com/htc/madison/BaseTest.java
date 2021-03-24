@@ -65,7 +65,7 @@ public class BaseTest {
 		this.driver.get(Constants.URL);
 		this.driver.manage().window().maximize();
 		this.driver.manage().timeouts().implicitlyWait(Constants.SECONDS, TimeUnit.SECONDS);
-		//PageFactory.initElements(driver, this);
+	
 	}
 	@BeforeClass
 	public void browserSetup() {
