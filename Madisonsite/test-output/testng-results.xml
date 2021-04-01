@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11255" started-at="2021-03-26T10:08:21 IST" finished-at="2021-03-26T10:08:32 IST">
+  <suite name="Suite" duration-ms="15628" started-at="2021-03-26T11:56:01 IST" finished-at="2021-03-26T11:56:17 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11255" started-at="2021-03-26T10:08:21 IST" finished-at="2021-03-26T10:08:32 IST">
+    <test name="Test" duration-ms="15628" started-at="2021-03-26T11:56:01 IST" finished-at="2021-03-26T11:56:17 IST">
       <class name="com.htc.madison.tests.LoginTest">
-        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="start" is-config="true" duration-ms="8280" started-at="2021-03-26T10:08:12 IST" finished-at="2021-03-26T10:08:21 IST">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="start" is-config="true" duration-ms="9943" started-at="2021-03-26T11:55:51 IST" finished-at="2021-03-26T11:56:01 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="browserSetup" is-config="true" duration-ms="120" started-at="2021-03-26T10:08:21 IST" finished-at="2021-03-26T10:08:21 IST">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="browserSetup" is-config="true" duration-ms="267" started-at="2021-03-26T11:56:01 IST" finished-at="2021-03-26T11:56:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="5126" started-at="2021-03-26T10:08:22 IST" data-provider="Madison" finished-at="2021-03-26T10:08:27 IST">
+        <test-method status="PASS" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="7454" started-at="2021-03-26T11:56:04 IST" data-provider="Madison" finished-at="2021-03-26T11:56:11 IST">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_And_Invalid_Login -->
-        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="1145" started-at="2021-03-26T10:08:28 IST" finished-at="2021-03-26T10:08:29 IST">
+        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="1431" started-at="2021-03-26T11:56:12 IST" finished-at="2021-03-26T11:56:13 IST">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogout -->
-        <test-method status="FAIL" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="2467" started-at="2021-03-26T10:08:29 IST" data-provider="Madison" finished-at="2021-03-26T10:08:31 IST">
+        <test-method status="FAIL" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="2188" started-at="2021-03-26T11:56:13 IST" data-provider="Madison" finished-at="2021-03-26T11:56:16 IST">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_And_Invalid_Login -->
-        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="2" started-at="2021-03-26T10:08:32 IST" finished-at="2021-03-26T10:08:32 IST">
+        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="0" started-at="2021-03-26T11:56:17 IST" finished-at="2021-03-26T11:56:17 IST">
           <params>
             <param index="0">
               <value>
