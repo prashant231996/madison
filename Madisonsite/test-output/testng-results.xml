@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15628" started-at="2021-03-26T11:56:01 IST" finished-at="2021-03-26T11:56:17 IST">
+  <suite name="Suite" duration-ms="9121" started-at="2021-04-01T12:13:13 IST" finished-at="2021-04-01T12:13:22 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15628" started-at="2021-03-26T11:56:01 IST" finished-at="2021-03-26T11:56:17 IST">
+    <test name="Test" duration-ms="9121" started-at="2021-04-01T12:13:13 IST" finished-at="2021-04-01T12:13:22 IST">
       <class name="com.htc.madison.tests.LoginTest">
-        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="start" is-config="true" duration-ms="9943" started-at="2021-03-26T11:55:51 IST" finished-at="2021-03-26T11:56:01 IST">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="start" is-config="true" duration-ms="8311" started-at="2021-04-01T12:13:05 IST" finished-at="2021-04-01T12:13:13 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="browserSetup" is-config="true" duration-ms="267" started-at="2021-03-26T11:56:01 IST" finished-at="2021-03-26T11:56:01 IST">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="browserSetup" is-config="true" duration-ms="73" started-at="2021-04-01T12:13:13 IST" finished-at="2021-04-01T12:13:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="7454" started-at="2021-03-26T11:56:04 IST" data-provider="Madison" finished-at="2021-03-26T11:56:11 IST">
+        <test-method status="PASS" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="4130" started-at="2021-04-01T12:13:15 IST" data-provider="Madison" finished-at="2021-04-01T12:13:19 IST">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_And_Invalid_Login -->
-        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="1431" started-at="2021-03-26T11:56:12 IST" finished-at="2021-03-26T11:56:13 IST">
+        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="892" started-at="2021-04-01T12:13:19 IST" finished-at="2021-04-01T12:13:20 IST">
           <params>
             <param index="0">
               <value>
@@ -44,20 +44,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogout -->
-        <test-method status="FAIL" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="2188" started-at="2021-03-26T11:56:13 IST" data-provider="Madison" finished-at="2021-03-26T11:56:16 IST">
+        <test-method status="FAIL" signature="Valid_And_Invalid_Login(java.util.Map)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="Valid_And_Invalid_Login" duration-ms="1814" started-at="2021-04-01T12:13:20 IST" data-provider="Madison" finished-at="2021-04-01T12:13:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=tets123, emailid=test09@gmail.com, assert=MY DASHBOARD}]]>
+                <![CDATA[{password=tets123, emailid=test09@gmail.com, assert=LOGIN OR CREATE AN ACOOUNT}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [MY DASHBOARD] but found [LOGIN OR CREATE AN ACCOUNT]]]>
+              <![CDATA[expected [LOGIN OR CREATE AN ACOOUNT] but found [LOGIN OR CREATE AN ACCOUNT]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [MY DASHBOARD] but found [LOGIN OR CREATE AN ACCOUNT]
+              <![CDATA[java.lang.AssertionError: expected [LOGIN OR CREATE AN ACOOUNT] but found [LOGIN OR CREATE AN ACCOUNT]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_And_Invalid_Login -->
-        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="0" started-at="2021-03-26T11:56:17 IST" finished-at="2021-03-26T11:56:17 IST">
+        <test-method status="PASS" signature="doLogout(org.testng.ITestResult)[pri:0, instance:com.htc.madison.tests.LoginTest@7181ae3f]" name="doLogout" is-config="true" duration-ms="0" started-at="2021-04-01T12:13:22 IST" finished-at="2021-04-01T12:13:22 IST">
           <params>
             <param index="0">
               <value>
